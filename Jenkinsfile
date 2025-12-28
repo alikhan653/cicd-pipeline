@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_REGISTRY = 'https://registry.hub.docker.com'
         DOCKER_IMAGE = 'mybuildimage'
-        DOCKER_CREDENTIALS_ID = 'docker_hub_creds_id' 
+        DOCKER_CREDENTIALS_ID = '543eac01-056c-4bc2-ab12-f6a723772528' 
     }
     
     stages {
